@@ -8,12 +8,13 @@ body{
     background-color: #5e175b;
     color: #fff;
     text-align: center;
+    padding: 20px;
 }
 
 .header h1 {
     text-align: center;
     font-size: 40px;
-    text-indent: 20px;
+    margin: 0;
 }
 
 a {
@@ -44,4 +45,9 @@ p.lead{
     font-size: 20px;
     color: rebeccapurple;
     font-weight: bold;
+}
+
+ul.main-menu li{
+    display: inline-block;
+    padding: 10px 20px;
 }
